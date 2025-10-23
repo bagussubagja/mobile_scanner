@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'mobile_scanner'
-  s.version          = '6.0.2'
+  s.version          = '6.0.11'
   s.summary          = 'An universal scanner for Flutter based on MLKit.'
   s.description      = <<-DESC
 An universal scanner for Flutter based on MLKit.
@@ -16,7 +16,7 @@ An universal scanner for Flutter based on MLKit.
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.dependency 'GoogleMLKit/BarcodeScanning', '~> 7.0.0'
-  s.platform = :ios, '15.5.0'
+  s.platform = :ios, '13.0'
   s.static_framework = true
   # Flutter.framework does not contain a i386 slice, and MLKit does not support armv7.
   s.pod_target_xcconfig = {
